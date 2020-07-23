@@ -17,3 +17,12 @@ class TestFizzbuzz(unittest.TestCase):
 
     def test_return_buzz_divisible_by_5_10(self):
         self.assertEqual("Buzz", fizzbuzz(10))
+
+    def test_return_fizzbuzz_divisable_by_3_and_5_15(self):
+        self.assertEqual("FizzBuzz", fizzbuzz(15))
+
+    def test_return_fizzbuzz_divisable_by_3_and_5_30(self):
+        self.assertEqual("FizzBuzz", fizzbuzz(30))
+    
+    def test_return_fizzbuzz_divisable_by_3_and_5_45(self):
+        self.assertEqual("FizzBuzz", fizzbuzz(45))
