@@ -14,3 +14,6 @@ class TestFizzbuzz(unittest.TestCase):
 
     def test_return_buzz_divisible_by_5_5(self):
         self.assertEqual("Buzz", fizzbuzz(5))
+
+    def test_return_buzz_divisible_by_5_10(self):
+        self.assertEqual("Buzz", fizzbuzz(10))
